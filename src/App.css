@@ -1,0 +1,25 @@
+body {
+    background: rgb(0,0,0,0.02);
+}
+
+.weekly-forecast {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.weekly-forecast * {
+    text-align: center;
+}
+
+.daily-forecast {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin: 4px;
+    padding: 0 4px 20px 4px;
+    background: white;
+}
+
+.temperature {
+    color: lightslategrey;
+    font-size: 15px;
+}
